@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="man.css">
+    <title>Sample Site | Features</title>
+</head>
+<body>
+
+    <header class="header">
+        <a class="brand" href="mannn.html"><span>SAMPLE</span>SITE</a>
+
+        <ul>
+            <li><a href="mannn.html">Home</a></li>
+            <li><a class="active" href="features.html">Features</a></li>
+        </ul>
+    </header>
+
+    <main class="features-page">
+
+        <div class="page-heading">
+            <p class="eyebrow">What you will find here</p>
+
+            <h1>Simple things,<br><span>made well.</span></h1>
+        </div>
+
+        <section class="feature-grid" aria-label="Site features">
+
+            <article class="feature-card">
+                <span class="feature-number">01</span>
+                <h2>Clear ideas</h2>
+                <p>
+                    Focused pages that keep the important things easy
+                    to find and pleasant to read.
+                </p>
+            </article>
+
+            <article class="feature-card feature-card-dark">
+                <span class="feature-number">02</span>
+                <h2>Fresh perspective</h2>
+                <p>
+                    A visual space for images, notes, and projects
+                    that deserve a little attention.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-number">03</span>
+                <h2>Built to grow</h2>
+                <p>
+                    Start small today, then add new pages and ideas
+                    whenever they are ready.
+                </p>
+            </article>
+
+        </section>
+
+        <section class="contact-section" aria-labelledby="contact-title">
+
+            <div>
+                <p class="eyebrow">Have something to say?</p>
+                <h2 id="contact-title">Start a conversation.</h2>
+            </div>
+
+            <form
+                class="contact-form"
+                id="contact-form"
+                action="https://formspree.io/f/xjybplbz"
+                method="POST"
+            >
+                <label for="name">Name</label>
+                <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    required
+                >
+
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                >
+
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                ></textarea>
+
+                <button class="button" type="submit">
+                    Email me <span aria-hidden="true">&#8594;</span>
+                </button>
+
+                <p class="form-status" id="form-status" role="status"></p>
+            </form>
+
+        </section>
+
+        <a class="back-link" href="mannn.html">
+            &#8592; Back home
+        </a>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Sample Site</p>
+        <p>Made for curious people.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
